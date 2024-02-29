@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          this is a redux App.
+          this is an updated redux App.
         </p>
         <a
           className="App-link"
