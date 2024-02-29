@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import DarkMode from './DarkMode';
+import Header from './Header';
+import Shop from './shop';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          this is an updated redux App.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github is complicated!!
-        </a>
-      </header>
+      <Header/>
+      <div className='container'>
+      <h1>fuckk off</h1>
+      <DarkMode/>
+      
+      </div>
+      <Shop/>
+      
+      
     </div>
   );
 }
