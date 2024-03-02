@@ -1,0 +1,35 @@
+.counterContainer {
+  text-align: center;
+  margin: 10rem auto; /* Center horizontally */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Align items vertically */
+  align-items: center; /* Align items horizontally */
+  max-width: 400px; /* Limit container width */
+  padding: 20px; /* Add padding */
+  border: 1px solid #ccc; /* Add border for visual separation */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.button {
+  margin: 10px; /* Adjust button margin */
+  padding: 10px 20px; /* Add padding to buttons */
+  font-size: 16px; /* Increase button font size */
+  border: none; /* Remove button border */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border-radius: 4px; /* Add button border radius */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+.count {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Add space below count */
+}

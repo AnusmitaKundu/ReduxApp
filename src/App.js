@@ -1,19 +1,20 @@
 import './App.css';
-import DarkMode from './DarkMode';
+
 import Header from './Header';
-import Shop from './shop';
+import React from 'react';
+import { Counter } from './features/counter/Counter';
+
 function App() {
+  
   return (
     <div className="App">
       <Header/>
       <div className='container'>
       <h1>fuckk off</h1>
-      <DarkMode/>
+      
       
       </div>
-      <Shop/>
-      
-      
+     <Counter/>
     </div>
   );
 }
