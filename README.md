@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Getting Started with Create React App and Redux
+![image](https://github.com/AnusmitaKundu/Reduxapp/assets/129651371/cebf323b-583f-4c5a-a3a7-7c5a0827d6ba)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
